@@ -1,0 +1,18 @@
+2023-07-12 22:05:18,581 - Copying the test.txt to the replica file
+2023-07-12 22:40:11,898 - Creating the folder folder_for_testing to the replica directory.
+2023-07-12 22:40:11,901 - Copying the .DS_Store to the replica file
+2023-07-12 22:40:11,902 - Copying the test2.txt to the replica file
+2023-07-12 22:40:11,903 - Copying the .DS_Store to the replica file
+2023-07-12 22:41:12,144 - Removing the dont_belong_here.ipynb item from the replica directory.
+2023-07-12 22:45:34,137 - Removing the remove_me.txt item from the replica directory.
+2023-07-12 22:45:54,213 - Removing the okay.java item from the replica directory.
+2023-07-12 22:46:34,357 - Removing the folder_for_testing folder from the replica directory.
+2023-07-12 22:59:52,870 - Removing the remove.txt item from the replica directory.
+2023-07-12 23:07:33,127 - Removing the test.txt item from the replica directory.
+2023-07-12 23:07:33,129 - Copying the debug.txt to the replica file
+2023-07-12 23:10:34,141 - Copying the class.java to the replica file
+Copying the s.txt to the replica file
+Removing the s.txt item from the replica directory.
+Copying the debug.txt to the replica file
+Creating the folder okay to the replica directory.
+2023-07-12 23:26:40,964 - Removing the okay folder from the replica directory.
