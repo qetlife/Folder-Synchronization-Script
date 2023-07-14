@@ -1,18 +1,19 @@
-2023-07-12 22:05:18,581 - Copying the test.txt to the replica file
-2023-07-12 22:40:11,898 - Creating the folder folder_for_testing to the replica directory.
-2023-07-12 22:40:11,901 - Copying the .DS_Store to the replica file
-2023-07-12 22:40:11,902 - Copying the test2.txt to the replica file
-2023-07-12 22:40:11,903 - Copying the .DS_Store to the replica file
-2023-07-12 22:41:12,144 - Removing the dont_belong_here.ipynb item from the replica directory.
-2023-07-12 22:45:34,137 - Removing the remove_me.txt item from the replica directory.
-2023-07-12 22:45:54,213 - Removing the okay.java item from the replica directory.
-2023-07-12 22:46:34,357 - Removing the folder_for_testing folder from the replica directory.
-2023-07-12 22:59:52,870 - Removing the remove.txt item from the replica directory.
-2023-07-12 23:07:33,127 - Removing the test.txt item from the replica directory.
-2023-07-12 23:07:33,129 - Copying the debug.txt to the replica file
-2023-07-12 23:10:34,141 - Copying the class.java to the replica file
-Copying the s.txt to the replica file
-Removing the s.txt item from the replica directory.
-Copying the debug.txt to the replica file
-Creating the folder okay to the replica directory.
-2023-07-12 23:26:40,964 - Removing the okay folder from the replica directory.
+2023-07-14 16:09:02,593 - Started Synchronization.
+2023-07-14 16:09:17,593 - Removing the debug.txt item from the replica directory.
+2023-07-14 16:09:27,594 - Creating the folder test_v1 to the replica directory.
+2023-07-14 16:09:37,595 - Copying the test_v2.py to the replica file
+2023-07-14 16:09:42,595 - Creating the folder test_v3 to the replica directory.
+2023-07-14 16:09:57,597 - Creating the folder test_v4 to the replica directory.
+2023-07-14 16:10:02,597 - Copying the test_v5.log to the replica file
+2023-07-14 16:10:17,599 - Removing the test_v6.py item from the replica directory.
+2023-07-14 16:10:27,600 - Creating the folder test_v4 to the replica directory.
+2023-07-14 16:10:27,600 - Copying the test_v5.log to the replica file
+2023-07-14 16:10:27,600 - Creating the folder test_v1 to the replica directory.
+2023-07-14 16:10:27,600 - Creating the folder test_v3 to the replica directory.
+2023-07-14 16:10:27,601 - Copying the test_v2.py to the replica file
+2023-07-14 16:10:43,627 - Stopped Synchronization.
+2023-07-14 16:21:49,034 - Started Synchronization.
+2023-07-14 16:21:59,035 - Removing the test_v3 folder from the replica directory.
+2023-07-14 16:22:09,035 - Removing the test_v4 folder from the replica directory.
+2023-07-14 16:22:39,037 - Copying the test_v2.py to the replica file
+2023-07-14 16:53:48,578 - Started Synchronization.
