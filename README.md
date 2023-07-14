@@ -13,7 +13,9 @@ The software can be launched either in an IDE or on the command line. You can ad
 
 Here are some examples:
 No arguments (this way the default arguments are used)
+
 <img width="362" alt="image" src="https://github.com/qetlife/Veeam-Software/assets/120670346/a28cf3db-f66e-46a8-a5c4-115050194d82">
 
 With arguments:
+
 <img width="567" alt="image" src="https://github.com/qetlife/Veeam-Software/assets/120670346/a7a7227f-c1da-41c8-b82b-2e47e74ba7f4">
