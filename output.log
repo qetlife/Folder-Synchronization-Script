@@ -19,11 +19,6 @@
 2023-07-14 22:06:26,359 - Started Synchronization.
 2023-07-14 22:06:30,962 - Stopped Synchronization.
 2023-07-14 22:06:39,287 - Started Synchronization.
-2023-07-14 22:06:41,085 - exit - Stop synchronization
-2023-07-14 22:06:41,092 - path - Show source and replica folder paths
-2023-07-14 22:06:41,104 - log - Show log file path
-2023-07-14 22:06:41,117 - interval - Show synchronization interval
-2023-07-14 22:06:41,123 - ? or help - Show available commands
 2023-07-14 22:07:14,230 - Stopped Synchronization.
 2023-07-14 22:07:26,508 - Started Synchronization.
 2023-07-14 22:07:49,458 - Stopped Synchronization.
