@@ -30,4 +30,12 @@ The user can use "?" or "help" to acess the command list:
 <img width="354" alt="image" src="https://github.com/qetlife/Veeam-Software/assets/120670346/c80d989d-50d7-46e5-996a-7060f01d0d68">
 
 
+
+
 The algorithm runs on a Thread, and uses the schedule to periodically synchronize the folders. The schedule library adds a sleep method that doesn't consume CPU when sleeping.
+
+Every synchronization task (copy, create, remove) is being logged to the console and to the output.log file.
+
+<img width="562" alt="image" src="https://github.com/qetlife/Veeam-Software/assets/120670346/837657db-5bee-422e-922d-04bc30e447e1">
+
+
