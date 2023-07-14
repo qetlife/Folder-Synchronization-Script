@@ -16,4 +16,20 @@
 2023-07-14 16:21:59,035 - Removing the test_v3 folder from the replica directory.
 2023-07-14 16:22:09,035 - Removing the test_v4 folder from the replica directory.
 2023-07-14 16:22:39,037 - Copying the test_v2.py to the replica file
-2023-07-14 16:53:48,578 - Started Synchronization.
+2023-07-14 22:06:26,359 - Started Synchronization.
+2023-07-14 22:06:30,962 - Stopped Synchronization.
+2023-07-14 22:06:39,287 - Started Synchronization.
+2023-07-14 22:06:41,085 - exit - Stop synchronization
+2023-07-14 22:06:41,092 - path - Show source and replica folder paths
+2023-07-14 22:06:41,104 - log - Show log file path
+2023-07-14 22:06:41,117 - interval - Show synchronization interval
+2023-07-14 22:06:41,123 - ? or help - Show available commands
+2023-07-14 22:07:14,230 - Stopped Synchronization.
+2023-07-14 22:07:26,508 - Started Synchronization.
+2023-07-14 22:07:49,458 - Stopped Synchronization.
+2023-07-14 22:08:38,502 - Started Synchronization.
+2023-07-14 22:08:59,187 - Stopped Synchronization.
+2023-07-14 22:10:12,259 - Started Synchronization.
+2023-07-14 22:10:34,743 - Stopped Synchronization.
+2023-07-14 22:11:10,942 - Started Synchronization.
+2023-07-14 22:11:16,604 - Stopped Synchronization.

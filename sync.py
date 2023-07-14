@@ -3,6 +3,7 @@ import shutil
 import logging
 import schedule
 import threading
+import argparse
 
 def sync_folders(source, replica):
 
@@ -43,11 +44,25 @@ def run():
     while flag:
         schedule.run_pending()
 
-# auxiliary variables for the paths.
+# Default path for the arguments
 source = "source"
 replica = "replica"
 output_log = "output.log"
 sync_interval = 5
+
+#Command line arguments
+parser = argparse.ArgumentParser(description="Folder synchronization program")
+parser.add_argument("source", nargs='?', default=source, help="Path to the source folder")
+parser.add_argument("replica", nargs='?', default=replica, help="Path to the replica folder")
+parser.add_argument("output_log", nargs='?', default=output_log, help="Path to the output log file")
+parser.add_argument("sync_interval", nargs='?', type=int, default=sync_interval, help="Synchronization interval in seconds")
+args = parser.parse_args()
+
+#Assign command line arguments to variables
+source = args.source
+replica = args.replica
+output_log = args.output_log
+sync_interval = args.sync_interval
 
 #Logging configuration for console
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
@@ -68,23 +83,36 @@ schedule.every(sync_interval).seconds.do(sync_folders, source, replica)
 flag = True
 
 #Thread start
-sync_thread = threading.Thread(target=run())
+sync_thread = threading.Thread(target=run)
 sync_thread.start()
+
+#list of commands
+commands = ["exit - Stop synchronization",
+            "path - Show source and replica folder paths",
+            "log - Show log file path",
+            "interval - Show synchronization interval",
+            "? or help - Show available commands\n"]
 
 #Provides the ability for the user to use command line commands for information
 while sync_thread.is_alive():
-    u_input = input()
-    if u_input == 'q':
+    u_input = input().lower()
+    if u_input == "exit":
         flag = False
         logger.info("Stopped Synchronization.")
         break
     elif u_input == "path":
         print("Source folder path: " + source)
-        print("Replica folder path: " + replica)
+        print("Replica folder path: " + replica + "\n")
     elif u_input == "log":
-        print("Log file path: " + output_log)
+        print("Log file path: " + output_log + "\n")
     elif u_input == "interval":
-        print("Synchronization interval: " + str(sync_interval) + " seconds.")
+        print("Synchronization interval: " + str(sync_interval) + " seconds.\n")
+    elif u_input == "?" or u_input == "help":
+        print("Available commands:")
+        for command in commands:
+            print(command)
+    else:
+        print("Command not recognized. Enter '?' or 'help' to see available commands.\n")
 
 #Stops the thread
 sync_thread.join()
