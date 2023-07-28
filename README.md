@@ -1,4 +1,4 @@
-# Veeam-Software
+# Folder Synchronization Script
 
 This is my take on the Synchronization Test for Veeam-Software.
 
